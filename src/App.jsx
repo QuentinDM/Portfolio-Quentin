@@ -1,15 +1,17 @@
-import './styles/style.css';
+import './styles/app.css';
+import { BrowserRouter as Router, Routes ,Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Navbar from './pages/navBar';
 
 function App() {
   return (
     <div className="style">
-      <h1>Welcome to My React App!</h1>
-      <p>This is a simple React application with custom styling.</p>
-      <button>Click Me</button>
-      <div className="card">
-        <h2>Card Title</h2>
-        <p>This is a sample card component.</p>
-      </div>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/navbar" element={<Navbar />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
