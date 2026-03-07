@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import '../styles/skillsPage.css';
-import NavIcon from '../components/inconComponents/navIcon';
+import NavIcon from '../components/iconComponents/navIcon';
 import FrontEndSkill from '../components/skills/FrontEndSkill';
 import BackEndSkill from '../components/skills/BackEndSkill';
 import AdminSkill from '../components/skills/AdminSkill';

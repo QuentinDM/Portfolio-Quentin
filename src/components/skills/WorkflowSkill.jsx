@@ -1,4 +1,4 @@
-import GithubIcon from '../inconComponents/GithubIcon';
+import GithubIcon from '../iconComponents/GithubIcon';
 
 function WorkflowSkill() {
   return (

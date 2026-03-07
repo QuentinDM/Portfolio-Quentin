@@ -1,7 +1,7 @@
-import HtmlIcon from '../inconComponents/HtmlIcon';
-import CssIcon from '../inconComponents/CssIcon';
-import JavaScriptIcon from '../inconComponents/JavaScriptIcon';
-import ReactIcon from '../inconComponents/ReactIcon';
+import HtmlIcon from '../iconComponents/HtmlIcon';
+import CssIcon from '../iconComponents/CssIcon';
+import JavaScriptIcon from '../iconComponents/JavaScriptIcon';
+import ReactIcon from '../iconComponents/ReactIcon';
 
 function FrontEndSkill() {
   return (

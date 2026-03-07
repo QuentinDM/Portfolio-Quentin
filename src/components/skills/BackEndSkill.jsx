@@ -1,4 +1,4 @@
-import NodeIcon from '../inconComponents/NodeIcon';
+import NodeIcon from '../iconComponents/NodeIcon';
 
 function BackEndSkill() {
   return (

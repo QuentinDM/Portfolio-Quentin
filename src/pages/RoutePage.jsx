@@ -1,4 +1,4 @@
-import NavIcon from "../components/inconComponents/navIcon";
+import NavIcon from "../components/iconComponents/navIcon";
 import '../styles/RoutePage.css';
 import { Link } from "react-router-dom";
 

@@ -4,15 +4,15 @@ import NinaImg from '../assets/images/Site-photagraphe.webp';
 import ArchitecteImg from '../assets/images/Site-architecte-designer.webp';
 import KasaImg from '../assets/images/Site-location-appartement.webp';
 import livreImg from '../assets/images/Site-notation-livres.webp';
-import ArrowLeftIcon from './inconComponents/ArrowLeftIcon';
-import ArrowRightIcon from './inconComponents/ArrowRightIcon';
-import GithubIcon from './inconComponents/GithubIcon';
-import HtmlIcon from './inconComponents/HtmlIcon'; 
-import CssIcon from './inconComponents/CssIcon';
-import JavaScriptIcon from './inconComponents/JavaScriptIcon';
-import ReactIcon from './inconComponents/ReactIcon';
-import NodeIcon from './inconComponents/NodeIcon';
-import SassIcon from './inconComponents/SassIcon';
+import ArrowLeftIcon from './iconComponents/ArrowLeftIcon';
+import ArrowRightIcon from './iconComponents/ArrowRightIcon';
+import GithubIcon from './iconComponents/GithubIcon';
+import HtmlIcon from './iconComponents/HtmlIcon'; 
+import CssIcon from './iconComponents/CssIcon';
+import JavaScriptIcon from './iconComponents/JavaScriptIcon';
+import ReactIcon from './iconComponents/ReactIcon';
+import NodeIcon from './iconComponents/NodeIcon';
+import SassIcon from './iconComponents/SassIcon';
 
 function SlideProjects() {
     //State
