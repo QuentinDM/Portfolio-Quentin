@@ -1,15 +1,17 @@
 import './styles/app.css';
 import { BrowserRouter as Router, Routes ,Route } from 'react-router-dom';
 import Home from './pages/Home';
-import Navbar from './pages/navBar';
+import RoutePage from './pages/RoutePage';
+import ProjetsPage from './pages/ProjetsPage';
 
 function App() {
   return (
-    <div className="style">
+    <div className="app">
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/navbar" element={<Navbar />} />
+          <Route path="/navbar" element={<RoutePage />} />
+          <Route path="/projects" element={<ProjetsPage />} />
         </Routes>
       </Router>
     </div>
