@@ -8,16 +8,28 @@ function RoutePage() {
             <NavIcon />
             <ul>
                 <Link to="/">
-                    <li className="navbar-item">Accueil</li>
+                    <button className="button" data-text="Accueil">
+                        <span className="actual-text">&nbsp;Accueil&nbsp;</span>
+                        <span aria-hidden="true" className="hover-text">&nbsp;Accueil&nbsp;</span>
+                    </button>
                 </Link>
                 <Link to="/projects">
-                    <li className="navbar-item">Projets</li>
+                    <button className="button" data-text="Projets">
+                        <span className="actual-text">&nbsp;Projets&nbsp;</span>
+                        <span aria-hidden="true" className="hover-text">&nbsp;Projets&nbsp;</span>
+                    </button>
                 </Link>
                 <Link to="/skills">
-                    <li className="navbar-item">Compétences</li>
+                    <button className="button" data-text="Compétences">
+                        <span className="actual-text">&nbsp;Compétences&nbsp;</span>
+                        <span aria-hidden="true" className="hover-text">&nbsp;Compétences&nbsp;</span>
+                    </button>
                 </Link>
                 <Link to="/contact">
-                    <li className="navbar-item">Contact</li>
+                    <button className="button" data-text="Contact">
+                        <span className="actual-text">&nbsp;Contact&nbsp;</span>
+                        <span aria-hidden="true" className="hover-text">&nbsp;Contact&nbsp;</span>
+                    </button>
                 </Link>
             </ul>
         </div>

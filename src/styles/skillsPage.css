@@ -10,8 +10,11 @@
 /* Titre principal */
 .skills-title {
     text-align: center;
+    -webkit-text-stroke: 1px #FACC15;
+    text-transform: uppercase;
+    text-decoration: none;
     font-size: 60px;
-    color: #FACC15;
+    color: transparent;
     margin-top: 30px;
     margin-bottom: 40px;
     font-family: 'Anton', sans-serif;
@@ -29,6 +32,7 @@
     background: none;
     border: 2px solid #7F99D2;
     color: #7F99D2;
+    text-transform: uppercase;
     font-size: 20px;
     padding: 8px 32px;
     border-radius: 8px;
