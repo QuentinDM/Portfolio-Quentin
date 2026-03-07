@@ -4,7 +4,7 @@ import { faHtml5 } from "@fortawesome/free-brands-svg-icons";
 function HtmlIcon() {
     //Render
     return (
-        <span className="icon"> 
+        <span className="icon html-icon"> 
             <FontAwesomeIcon icon={faHtml5} />
         </span>
     );

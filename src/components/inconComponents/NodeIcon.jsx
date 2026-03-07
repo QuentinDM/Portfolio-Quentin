@@ -4,7 +4,7 @@ import { faNode } from "@fortawesome/free-brands-svg-icons";
 function NodeIcon() {
     //Render
     return (
-        <span className="icon"> 
+        <span className="icon node-icon"> 
             <FontAwesomeIcon icon={faNode} />
         </span>
     );

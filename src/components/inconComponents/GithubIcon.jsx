@@ -6,6 +6,7 @@ const GithubIcon = ({
     href = 'https://github.com/quentindm',
     wrapperClass = 'home-contact-icon',
     iconClass = '',
+    color = '',
     ...props
 }) => {
     const Tag = as;
@@ -16,7 +17,7 @@ const GithubIcon = ({
 
     return (
         <Tag className={wrapperClass} {...anchorProps} {...props}>
-            <FontAwesomeIcon icon={faGithub} className={iconClass} />
+            <FontAwesomeIcon icon={faGithub} className={iconClass} style={color ? {color} : {}} />
         </Tag>
     );
 };

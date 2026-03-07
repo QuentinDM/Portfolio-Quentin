@@ -4,7 +4,7 @@ import { faJs } from "@fortawesome/free-brands-svg-icons";
 function JavaScriptIcon() {
     //Render
     return (
-        <span className="icon"> 
+        <span className="icon js-icon"> 
             <FontAwesomeIcon icon={faJs} />
         </span>
     );

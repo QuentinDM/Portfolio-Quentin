@@ -4,7 +4,7 @@ import { faReact } from "@fortawesome/free-brands-svg-icons";
 function ReactIcon() {
     //Render
     return (
-        <span className="icon"> 
+        <span className="icon react-icon"> 
             <FontAwesomeIcon icon={faReact} />
         </span>
     );
