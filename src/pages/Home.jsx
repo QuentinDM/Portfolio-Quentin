@@ -1,10 +1,10 @@
 import '../styles/home.css';
-import NavIcon from '../components/inconComponents/navIcon';
-import GithubIcon from '../components/inconComponents/GithubIcon';
-import MailIcon from '../components/inconComponents/MailIcon';
-import LinkedInIcon from '../components/inconComponents/LinkedInIcon';
-import LocationIcon from '../components/inconComponents/LocationIcon';
-import HandIcon from '../components/inconComponents/HandIcon';
+import NavIcon from '../components/iconComponents/navIcon';
+import GithubIcon from '../components/iconComponents/GithubIcon';
+import MailIcon from '../components/iconComponents/MailIcon';
+import LinkedInIcon from '../components/iconComponents/LinkedInIcon';
+import LocationIcon from '../components/iconComponents/LocationIcon';
+import HandIcon from '../components/iconComponents/HandIcon';
 
 function Home() {
   //Render

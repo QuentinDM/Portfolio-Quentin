@@ -4,7 +4,7 @@ import { faHandSpock } from '@fortawesome/free-solid-svg-icons';
 const HandIcon = () => {
     //Render
     return (
-        <span className="icon">
+        <span>
             <FontAwesomeIcon icon={faHandSpock} className="home-icon" />
         </span>
     );

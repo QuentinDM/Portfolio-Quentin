@@ -4,7 +4,7 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 const LocationIcon = () => {
     //Render
     return (
-        <span className="icon">
+        <span>
             <FontAwesomeIcon icon={faLocationDot} className="home-icon" />
         </span>
     );
