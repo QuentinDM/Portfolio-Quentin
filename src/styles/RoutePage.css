@@ -39,6 +39,7 @@ ul {
     text-transform: uppercase;
     color: transparent;
     -webkit-text-stroke: 1px var(--text-stroke-color);
+    transition: transform 0.2s ease;
 }
 
 .hover-text {
@@ -57,4 +58,15 @@ ul {
 .button:hover .hover-text {
     width: 100%;
     filter: drop-shadow(0 0 23px var(--animation-color))
+}
+
+.button:active {
+    transform: scale(0.9);
+    -webkit-text-stroke: 1px #7F99D2;
+}
+
+.button:active .hover-text {
+    width: 0%;
+    filter: none;
+    border-right: solid 6px #7F99D2;
 }
