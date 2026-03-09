@@ -5,6 +5,7 @@
     display: flex;
     height: 100%;
     align-items: center;
+    animation: pageLeftToRight 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 .projet-images {
     display: flex;
@@ -31,6 +32,15 @@ img {
     transition: all 0.3s ease;
     padding: 10px;
     border-radius: 50%;
+    animation: buttonDropFromTop 0.6s ease-out both;
+}
+
+.prev-button {
+    animation-delay: 0.5s;
+}
+
+.next-button {
+    animation-delay: 0.5s;
 }
 
 .arrow-button:hover {
@@ -40,7 +50,6 @@ img {
 }
 
 .arrow-button:active {
-    transform: scale(1);
     background: #ffffff33;
 }
 
@@ -68,7 +77,7 @@ img {
 }
 
 .icon-wrapper:hover {
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 
 .icon-wrapper:hover::after {
@@ -86,4 +95,26 @@ img {
     z-index: 10;
     opacity: 1;
     pointer-events: none;
+}
+
+@keyframes pageLeftToRight {
+    from {
+        opacity: 0;
+        transform: translateX(-140px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes buttonDropFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-60px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
