@@ -22,7 +22,7 @@ function Home() {
         <LinkedInIcon />
         <MailIcon />
       </div>
-      <p>Découvrir mon parcours</p>
+      <p className="p-discover">Découvrir mon parcours</p>
       <button className="home-button">Ici</button>
     </div>
   );

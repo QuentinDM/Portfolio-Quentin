@@ -56,7 +56,7 @@
 
 .skills-category-btn:active {
     transform: translate(0);
-    box-shadow: 0.25rem 0.25rem var(--shadow-color, #7F99D2);
+    box-shadow: 0.25rem 0.25rem var(--shadow-color, #FACC15);
 }
 
 .skills-category-btn.active {
@@ -74,30 +74,6 @@
     box-shadow: 0.25rem 0.25rem #FACC15;
 }
 
-/* Couleurs spécifiques par catégorie */
-.skills-category-btn.frontend {
-    --shadow-color: #E34F26;
-    border-color: #E34F26;
-    color: #E34F26;
-}
-
-.skills-category-btn.backend {
-    --shadow-color: #339933;
-    border-color: #339933;
-    color: #339933;
-}
-
-.skills-category-btn.admin {
-    --shadow-color: #1572B6;
-    border-color: #1572B6;
-    color: #1572B6;
-}
-
-.skills-category-btn.workflow {
-    --shadow-color: #F7DF1E;
-    border-color: #F7DF1E;
-    color: #F7DF1E;
-}
 
 /* Carte de compétences */
 .skills-card {
@@ -116,16 +92,13 @@
     font-size: 28px;
     letter-spacing: 1px;
     margin-bottom: 18px;
-    color: #fff;
-    font-family: 'Anton', sans-serif;
+    color: #FACC15;
 }
 
 .skills-card-desc {
     text-align: center;
     font-size: 18px;
     margin-bottom: 28px;
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .skills-card-icons {
