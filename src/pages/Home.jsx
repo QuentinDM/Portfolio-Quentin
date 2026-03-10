@@ -6,6 +6,7 @@ import LinkedInIcon from '../components/iconComponents/LinkedInIcon';
 import WhatsappIcon from '../components/iconComponents/WhatsappIcon';
 import LocationIcon from '../components/iconComponents/LocationIcon';
 import HandIcon from '../components/iconComponents/HandIcon';
+import { Link } from 'react-router-dom';
 
 function Home() {
   //Render
@@ -24,8 +25,10 @@ function Home() {
         <MailIcon />
         <WhatsappIcon />
       </div>
-      <p className="p-discover">Découvrir mon parcours</p>
-      <button className="home-button">Ici</button>
+      <p className="p-discover">Découvrir mon CV</p>
+      <Link to="/cv">
+        <button className="home-button">Ici</button>
+      </Link>
     </div>
   );
 }   

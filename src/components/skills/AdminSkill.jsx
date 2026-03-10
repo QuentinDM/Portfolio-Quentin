@@ -11,7 +11,6 @@ function AdminSkill() {
         <div className="skills-card-icon-item"><span className="icon">☁️</span><span>AWS</span></div>
         <div className="skills-card-icon-item"><span className="icon">🔧</span><span>DevOps</span></div>
       </div>
-      <button className="skills-card-project-btn">Projet en cours</button>
     </div>
   );
 }

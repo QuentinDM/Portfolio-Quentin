@@ -13,7 +13,6 @@ function WorkflowSkill() {
         <div className="skills-card-icon-item"><span className="icon">🔄</span><span>CI/CD</span></div>
         <div className="skills-card-icon-item"><span className="icon">📊</span><span>Scrum</span></div>
       </div>
-      <button className="skills-card-project-btn">Voir un projet</button>
     </div>
   );
 }

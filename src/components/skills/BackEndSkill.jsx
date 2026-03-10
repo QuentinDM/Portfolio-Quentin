@@ -13,7 +13,6 @@ function BackEndSkill() {
         <div className="skills-card-icon-item"><span className="icon">🍃</span><span>MongoDB</span></div>
         <div className="skills-card-icon-item"><span className="icon">🗄️</span><span>SQL</span></div>
       </div>
-      <button className="skills-card-project-btn">Voir un projet</button>
     </div>
   );
 }

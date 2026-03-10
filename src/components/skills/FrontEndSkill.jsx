@@ -16,7 +16,6 @@ function FrontEndSkill() {
         <div className="skills-card-icon-item"><JavaScriptIcon /><span>JavaScript</span></div>
         <div className="skills-card-icon-item"><ReactIcon /><span>React</span></div>
       </div>
-      <button className="skills-card-project-btn">Voir un projet</button>
     </div>
   );
 }
