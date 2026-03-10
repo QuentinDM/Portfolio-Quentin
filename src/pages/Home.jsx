@@ -3,6 +3,7 @@ import NavIcon from '../components/iconComponents/navIcon';
 import GithubIcon from '../components/iconComponents/GithubIcon';
 import MailIcon from '../components/iconComponents/MailIcon';
 import LinkedInIcon from '../components/iconComponents/LinkedInIcon';
+import WhatsappIcon from '../components/iconComponents/WhatsappIcon';
 import LocationIcon from '../components/iconComponents/LocationIcon';
 import HandIcon from '../components/iconComponents/HandIcon';
 
@@ -21,6 +22,7 @@ function Home() {
         <GithubIcon />
         <LinkedInIcon />
         <MailIcon />
+        <WhatsappIcon />
       </div>
       <p className="p-discover">Découvrir mon parcours</p>
       <button className="home-button">Ici</button>

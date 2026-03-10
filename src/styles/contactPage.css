@@ -1,0 +1,139 @@
+
+.contact-page {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	gap: 18px;
+}
+
+.contact-title {
+	-webkit-text-stroke: 1px #facc15;
+	text-transform: uppercase;
+	font-size: 60px;
+	color: transparent;
+}
+
+.contact-subtitle {
+	color: #e2e8f0;
+	text-align: center;
+}
+
+.contact-grid-main {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75em;
+}
+
+.contact-grid-row {
+	display: flex;
+	flex-direction: row;
+	gap: 0.75em;
+}
+
+.contact-grid-card {
+	width: 90px;
+	height: 90px;
+	background: #ffffff;
+	border-radius: 5px;
+	border: 3px solid #2d2d2d;
+	box-shadow: 6px 6px 0 #2d2d2d;
+	transition: all 0.2s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+}
+
+.contact-grid-card a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+}
+
+.contact-grid-card1 {
+	border-radius: 90px 5px 5px 5px;
+	padding-top: 12px;
+	padding-left: 12px;
+}
+
+.contact-grid-card2 {
+	border-radius: 5px 90px 5px 5px;
+	padding-top: 12px;
+	padding-right: 12px;
+}
+
+.contact-grid-card3 {
+	border-radius: 5px 5px 5px 90px;
+	padding-bottom: 10px;
+	padding-left: 12px;
+}
+
+.contact-grid-card4 {
+	border-radius: 5px 5px 90px 5px;
+	padding-bottom: 12px;
+	padding-right: 12px;
+}
+
+.contact-grid-card .home-contact-icon {
+	font-size: 40px;
+	transition: color 0.2s ease-in-out;
+}
+
+.contact-grid-card:hover {
+	cursor: pointer;
+	transform: translate(-6px, -6px);
+	box-shadow: 12px 12px 0 #2d2d2d;
+}
+
+.contact-grid-card1:hover {
+	background-color: #fd1d1d;
+}
+
+.contact-grid-card2:hover {
+	background-color: #24a0ed;
+}
+
+.contact-grid-card3:hover {
+	background-color: #f7b733;
+}
+
+.contact-grid-card4:hover {
+	background-color: #4cd137;
+}
+
+.contact-grid-card-mail .home-contact-icon {
+	color: #e1306c;
+}
+
+.contact-grid-card-linkedin .home-contact-icon {
+	color: #1da1f2;
+}
+
+.contact-grid-card-github .home-contact-icon {
+	color: #333333;
+}
+
+.contact-grid-card-whatsapp .home-contact-icon {
+	color: #00a849;
+}
+
+.contact-grid-card:hover .home-contact-icon {
+	color: #ffffff;
+}
+
+@media (max-width: 768px) {
+	.contact-title {
+		font-size: 44px;
+	}
+
+	.contact-grid-card {
+		width: 78px;
+		height: 78px;
+	}
+}
+
