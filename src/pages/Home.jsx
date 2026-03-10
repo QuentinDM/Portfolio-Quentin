@@ -23,7 +23,10 @@ function Home() {
         <GithubIcon />
         <LinkedInIcon />
         <MailIcon />
-        <WhatsappIcon />
+        <WhatsappIcon
+          phone="33651919190"
+          message="Bonjour Quentin, je viens de ton portfolio."
+        />
       </div>
       <p className="p-discover">Découvrir mon CV</p>
       <Link to="/cv">
