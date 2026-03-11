@@ -66,7 +66,7 @@ function SlideProjects() {
             />
 
             <div className="projet-text">
-                <h3 className="projet-title-content">{slides[currentTextIndex].text.title}</h3>
+                <h2 className="projet-title-content">{slides[currentTextIndex].text.title}</h2>
                 <p className="projet-text-content">
                     {slides[currentTextIndex].text.content
                         .split("\n")
