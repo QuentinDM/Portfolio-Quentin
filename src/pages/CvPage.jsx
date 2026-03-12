@@ -2,7 +2,7 @@ import "../styles/cvPage.css";
 import NavIcon from "../components/iconComponents/navIcon";
 
 function CvPage() {
-  const cvPath = "/CV_Quentin_Della_Mattia_Administrateur_Systeme.pdf";
+  const cvPath = `${process.env.PUBLIC_URL}/CV_Quentin_Della_Mattia_Administrateur_Systeme.pdf`;
 
   return (
     <section className="cv-page">
