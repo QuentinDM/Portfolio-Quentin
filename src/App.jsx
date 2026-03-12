@@ -11,7 +11,7 @@ import CvPage from './pages/CvPage';
 function App() {
   return (
     <div className="app">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/navbar" element={<RoutePage />} />
