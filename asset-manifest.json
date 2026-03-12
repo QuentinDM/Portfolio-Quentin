@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/porfolio/static/css/main.37f3fdaa.css",
-    "main.js": "/porfolio/static/js/main.b0e84ef9.js",
-    "static/media/Site-location-appartement.webp": "/porfolio/static/media/Site-location-appartement.11f2e3bc06b264c0cd55.webp",
-    "static/media/Site-photagraphe.webp": "/porfolio/static/media/Site-photagraphe.3944e12bdff4cbe18a62.webp",
-    "static/media/Site-architecte-designer.webp": "/porfolio/static/media/Site-architecte-designer.4beaf44af6636cea066a.webp",
-    "static/media/Site-notation-livres.webp": "/porfolio/static/media/Site-notation-livres.99e12e9fcdf211bd8d6f.webp",
-    "static/media/Site-reservation-hotel.webp": "/porfolio/static/media/Site-reservation-hotel.1c0cf51b5dd84e47a784.webp",
-    "index.html": "/porfolio/index.html",
-    "main.37f3fdaa.css.map": "/porfolio/static/css/main.37f3fdaa.css.map",
-    "main.b0e84ef9.js.map": "/porfolio/static/js/main.b0e84ef9.js.map"
+    "main.css": "/Portfolio-Quentin/static/css/main.37f3fdaa.css",
+    "main.js": "/Portfolio-Quentin/static/js/main.772b1c56.js",
+    "static/media/Site-location-appartement.webp": "/Portfolio-Quentin/static/media/Site-location-appartement.11f2e3bc06b264c0cd55.webp",
+    "static/media/Site-photagraphe.webp": "/Portfolio-Quentin/static/media/Site-photagraphe.3944e12bdff4cbe18a62.webp",
+    "static/media/Site-architecte-designer.webp": "/Portfolio-Quentin/static/media/Site-architecte-designer.4beaf44af6636cea066a.webp",
+    "static/media/Site-notation-livres.webp": "/Portfolio-Quentin/static/media/Site-notation-livres.99e12e9fcdf211bd8d6f.webp",
+    "static/media/Site-reservation-hotel.webp": "/Portfolio-Quentin/static/media/Site-reservation-hotel.1c0cf51b5dd84e47a784.webp",
+    "index.html": "/Portfolio-Quentin/index.html",
+    "main.37f3fdaa.css.map": "/Portfolio-Quentin/static/css/main.37f3fdaa.css.map",
+    "main.772b1c56.js.map": "/Portfolio-Quentin/static/js/main.772b1c56.js.map"
   },
   "entrypoints": [
     "static/css/main.37f3fdaa.css",
-    "static/js/main.b0e84ef9.js"
+    "static/js/main.772b1c56.js"
   ]
 }
