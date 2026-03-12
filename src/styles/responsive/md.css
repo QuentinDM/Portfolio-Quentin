@@ -1,0 +1,80 @@
+/* Tablet */
+@media (max-width: 1024px) {
+  /* Route page (navbar menu) */
+  a .button {
+    --fs-size: 44px;
+    letter-spacing: 2px;
+    margin: 28px 0;
+  }
+
+  /* Projects page */
+  div .slides-show-container {
+    margin-top: 0;
+  }
+
+  div .projets-page {
+    display: block;
+  }
+
+  .projets-page .projet-images {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas:
+      "image image"
+      "title title"
+      "content content"
+      "icons icons"
+      "prev next";
+  }
+
+  .projet-image {
+    width: 100%;
+    grid-area: image;
+  }
+
+  .prev-button {
+    grid-area: prev;
+    justify-self: end;
+  }
+
+  .next-button {
+    grid-area: next;
+    justify-self: start;
+  }
+
+  .projet-text {
+    display: contents;
+  }
+
+  .projet-title-content {
+    grid-area: title;
+    text-align: center;
+  }
+
+  .projet-text-content {
+    grid-area: content;
+    text-align: center;
+  }
+
+  .projet-icon-content {
+    grid-area: icons;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  /* Skills page */
+  .skills-category-btn.skills-category-btn {
+    font-size: 18px;
+    padding: 8px 20px;
+  }
+
+  .skills-card {
+    width: 600px;
+  }
+
+  /* CV page */
+  div.cv-viewer-wrap {
+    width: 90%;
+  }
+}

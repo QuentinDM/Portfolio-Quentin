@@ -1,0 +1,91 @@
+/* Small phone */
+@media (max-width: 480px) {
+  /* Home page */
+  .home-title h1 {
+    font-size: 30px;
+  }
+
+  p.home-greeting,
+  p.home-location,
+  p.p-discover {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  p.home-title-learning {
+    font-size: 18px;
+  }
+
+  div.home-contact {
+    font-size: 35px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  a .button {
+    --fs-size: 35px;
+  }
+
+  /* Route page (navbar menu) */
+  .app .navbar-icon {
+    left: 85%;
+  }
+
+  .menu-container .bar1,
+  .menu-container .bar2,
+  .menu-container .bar3 {
+    width: 25px;
+    height: 2px;
+    margin: 4px 0;
+    transform-origin: center;
+  }
+
+  .menu-container.change .bar1 {
+    transform: translate(0, 6px) rotate(-45deg);
+  }
+
+  .menu-container.change .bar3 {
+    transform: translate(0, -6px) rotate(45deg);
+  }
+
+  /* Projects page */
+  .projet-image {
+    height: 180px;
+  }
+
+  h2.projet-title-content {
+    font-size: 18px;
+  }
+
+  p.projet-text-content {
+    font-size: 12px;
+  }
+
+  /* Skills page */
+  div .skills-page {
+    height: auto;
+  }
+
+  .skills-category-btn {
+    flex-basis: 100%;
+  }
+
+  /* Shared titles: Skills, Contact, CV pages */
+  h2.skills-title,
+  h2.contact-title,
+  h2.cv-title {
+    font-size: 40px;
+  }
+
+  h3.skills-card-title {
+    font-size: 18px;
+  }
+
+  p.skills-card-desc {
+    font-size: 14px;
+  }
+
+  span.icon {
+    font-size: 30px;
+  }
+}

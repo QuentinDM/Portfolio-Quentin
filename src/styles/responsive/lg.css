@@ -1,0 +1,7 @@
+/* Medium desktop / laptop next breakpoint for projects page image size */
+@media (max-width: 1141px) {
+  /* image size for projects page */
+  .projet-image {
+    width: min(40vw, 480px);
+  }
+}

@@ -1,0 +1,42 @@
+/* Medium desktop / laptop */
+@media (max-width: 1400px) {
+  /* Global */
+  body {
+    font-size: 21px;
+  }
+
+  /* Home page */
+  .home {
+    padding: 28px 20px;
+  }
+
+  /* Projects page */
+  .projets-page {
+    padding: 90px 18px 24px;
+  }
+
+  .projets-page .projet-images {
+    gap: 10px;
+  }
+
+  p.projet-text-content {
+    max-height: 447px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-size: 15px;
+  }
+
+  h2.projet-title-content {
+    font-size: 21px;
+  }
+
+  /* Skills page */
+  .skills-page {
+    padding: 90px 20px 24px;
+  }
+
+  /* Contact page */
+  .contact-page {
+    padding: 90px 20px 24px;
+  }
+}
